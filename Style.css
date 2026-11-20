@@ -158,6 +158,7 @@ hr{
     color: white;
     background-color: rgba(128, 128, 128, 0.6);
     backdrop-filter: blur(6px);
+    margin: 55px;
     padding: 38px;
     padding-top: 38px;
     height: 350px;
@@ -308,6 +309,11 @@ hr{
 .colonne-photos1 {
     display:grid;
     gap: 25px;
+}
+
+.colonne-photos2 {
+    display:grid;
+    gap: 24px
 }
 
 footer{
