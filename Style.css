@@ -1,8 +1,9 @@
 html, body {
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
 }
 
 body{
@@ -64,6 +65,13 @@ body{
     margin: 0px;
     margin-top: -20px;
     
+}
+
+h1 {
+    font-family: "BD Orange VF", sans-serif;
+    font-weight: 900;
+    font-size: 300px;
+
 }
 
 h2 {
@@ -150,7 +158,6 @@ hr{
     color: white;
     background-color: rgba(128, 128, 128, 0.6);
     backdrop-filter: blur(6px);
-    margin-left: 55px;
     padding: 38px;
     padding-top: 38px;
     height: 350px;
@@ -198,7 +205,7 @@ hr{
     border: 1px solid #ffffff;
     padding: 10px 25px;
     border-radius: 30px;
-    margin-right: px;
+
     margin-top: 80px
 }
 
@@ -301,4 +308,63 @@ hr{
 .colonne-photos1 {
     display:grid;
     gap: 25px;
+}
+
+footer{
+    background-image: url(Fond\ Footer.png);
+    background-size: 1440px auto;
+    background-repeat: no-repeat;
+    height: 588px;
+    z-index: -9999;
+
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+footer h1 {
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+footer h3 {
+    color: #ffffff;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.infos-footer {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 50px;
+    gap: 234px;
+}
+
+.button-shop {
+    background-color: #ffffff;
+    color: hsl(193, 100%, 13%);
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 40px;
+    width: 126px;
+    text-align: center;
+}
+
+.button-shop p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.droit-reserve p {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 12px;
 }
